@@ -20,8 +20,17 @@ c = GraphNode("C")
 a.add_edge(b)
 a.add_edge(c)        
 
-adj_list = []
-adj_mat = []
+node = ["A", "B", "C"]
+adj_list = {
+    'A': ['B', 'C'],
+    'B': [],
+    'C': []
+}
+adj_mat = [
+    [0, 1, 1],
+    [0, 0, 0],
+    [0, 0, 0]
+]
 
 
 
