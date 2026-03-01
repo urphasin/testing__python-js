@@ -1,0 +1,13 @@
+h1, div {
+  margin: 0;
+}
+
+.parent {
+  background: lightgray;
+  height: 420px;
+  padding-top: 1px;
+}
+
+.child {
+  margin-top: 40px;
+}
