@@ -10,7 +10,7 @@ cnt_string = "mongodb+srv://portugal:<db_password>@cluster0.uqcbmq9.mongodb.net/
 class GraphNode:
     def __init__(self, value):
         self.value = value
-        self.neighbors = []  # list of GraphNode
+        self.neighbors: list[GraphNode] = []  # list of GraphNode
 
     def add_edge(self, node):
         self.neighbors.append(node)
@@ -20,7 +20,17 @@ c = GraphNode("C")
 a.add_edge(b)
 a.add_edge(c)        
 
+adj_list = []
+adj_mat = []
 
+
+
+
+
+
+
+
+# trees
 class TreeNode:
     def __init__(self, value):
         self.value = value
