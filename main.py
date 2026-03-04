@@ -5,6 +5,7 @@ cpy__people = 2
 print(people)
 
 
+
 cnt_string = "mongodb+srv://portugal:<db_password>@cluster0.uqcbmq9.mongodb.net/?appName=Cluster0"
 
 class GraphNode:
@@ -19,25 +20,6 @@ b = GraphNode("B")
 c = GraphNode("C")
 a.add_edge(b)
 a.add_edge(c)        
-
-node = ["A", "B", "C"]
-adj_list = {
-    'A': ['B', 'C'],
-    'B': [],
-    'C': []
-}
-adj_mat = [
-    [0, 1, 1],
-    [0, 0, 0],
-    [0, 0, 0]
-]
-
-
-
-
-
-
-
 
 # trees
 class TreeNode:
