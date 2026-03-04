@@ -4,7 +4,13 @@ cpy__people = 2
 
 print(people)
 
+def fib(n):
+    if n < 2:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
 
+print(fib(4))
 
 cnt_string = "mongodb+srv://portugal:<db_password>@cluster0.uqcbmq9.mongodb.net/?appName=Cluster0"
 
